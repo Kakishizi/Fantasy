@@ -1,0 +1,18 @@
+{
+    "name": "BestGame",
+    "rootNamespace": "",
+    "references": [
+        "GUID:36410968656dd49358af485aad0b0c4c",
+        "GUID:0b7224b83ba514121aa026f3857f820a",
+        "GUID:2a81c6962524d424a8ef5072bd3b0fa0"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

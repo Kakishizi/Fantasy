@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+        <DefineConstants>TRACE;FANTASY_NET;FANTASY_KCPUNSAFE</DefineConstants>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\..\..\..\Fantasy.Net\Fantasy.Net\Fantasy.Net.csproj" />
+      <ProjectReference Include="..\Plugins\UnityEngine\UnityEngine.csproj" />
+    </ItemGroup>
+
+</Project>
