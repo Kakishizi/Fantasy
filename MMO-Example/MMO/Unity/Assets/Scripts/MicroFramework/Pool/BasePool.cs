@@ -1,12 +1,12 @@
 using System;
 using System.Collections.Generic;
 using UnityEngine;
+using YooAsset;
 
 public class BasePool
 {
     protected Dictionary<string, Stack<GameObject>> objectPoolDict = new Dictionary<string, Stack<GameObject>>(); // 对象池字典
     protected Dictionary<string, GameObject> factoryDict = new Dictionary<string, GameObject>(); // 游戏物体资源(预制体)的字典
-    public string loadPath = "Prefabs/"; // 加载路径
     public GameObject itemPool; // 对象池的父物体
 
 
@@ -93,12 +93,13 @@ public class BasePool
     /// </summary>
     public GameObject GetResource(string prefabName,string name)
     {
-        string path = loadPath + prefabName;
 
         if (factoryDict.ContainsKey(name)) // 如果工厂中有该资源
             return factoryDict[name];
         
-        var prefab = Resources.Load<GameObject>(path); // 从文件夹中加载该资源
+        //var prefab = Resources.Load<GameObject>(path); // 从文件夹中加载该资源
+        var prefab = YooAssets.LoadAssetSync<GameObject>(prefabName).AssetObject as GameObject; // 从文件夹中加载该资源
+        
         prefab.name = name;
 
         GameObject go = GameObject.Instantiate(prefab);
@@ -106,7 +107,7 @@ public class BasePool
         factoryDict.Add(name, go); // 将得到的资源放入资源字典当中
         
         if (go == null) //异常处理
-            Debug.LogError(string.Format("资源加载异常: {0}资源加载失败,加载路径为{1}", name, path));
+            Debug.LogError(string.Format("资源加载异常: {0}资源加载失败,加载路径为{1}", name, prefabName));
         
         return go;
     }

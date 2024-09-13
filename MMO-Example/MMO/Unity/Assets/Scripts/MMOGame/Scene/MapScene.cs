@@ -15,11 +15,11 @@
         mUIFacade.lastPanel = mapUIFramePanel;
 
         // playerUnits加入场景
-        GameManager.PlayerUnits.EnterScene();
+        GameApp.PlayerUnits.EnterScene();
         // NpcUnits加入场景
-        GameManager.NpcUnits.EnterScene();
+        GameApp.NpcUnits.EnterScene();
         // MonsterUnits加入场景
-        GameManager.MonsterUnits.EnterScene();
+        GameApp.MonsterUnits.EnterScene();
     }
 
     public override void ExitScene()
@@ -27,11 +27,11 @@
         base.ExitScene();
 
         // playerUnits退出场景
-        GameManager.PlayerUnits.ExitScene();
+        GameApp.PlayerUnits.ExitScene();
         // NpcUnits退出场景
-        GameManager.NpcUnits.ExitScene();
+        GameApp.NpcUnits.ExitScene();
         // MonsterUnits退出场景
-        GameManager.MonsterUnits.ExitScene();
+        GameApp.MonsterUnits.ExitScene();
     }
 
 }

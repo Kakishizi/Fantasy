@@ -1,0 +1,222 @@
+{
+    "FileVersion": "2.0.0",
+    "EnableAddressable": true,
+    "LocationToLower": false,
+    "IncludeAssetGUID": false,
+    "OutputNameStyle": 0,
+    "BuildPipeline": "BuiltinBuildPipeline",
+    "PackageName": "DefaultPackage",
+    "PackageVersion": "Simulate",
+    "AssetList": [
+        {
+            "Address": "Scene_Boot",
+            "AssetPath": "Assets/Scenes/Boot.unity",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 0
+        },
+        {
+            "Address": "Scene_Entry",
+            "AssetPath": "Assets/Scenes/Entry.unity",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 0
+        },
+        {
+            "Address": "Scene_Main",
+            "AssetPath": "Assets/Scenes/Main.unity",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 0
+        },
+        {
+            "Address": "RoleClassSlot",
+            "AssetPath": "Assets/MMORes/Prefabs/UI/RoleClassSlot.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 1
+        },
+        {
+            "Address": "RoleNameSlot",
+            "AssetPath": "Assets/MMORes/Prefabs/UI/RoleNameSlot.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 1
+        },
+        {
+            "Address": "ZoneSlot",
+            "AssetPath": "Assets/MMORes/Prefabs/UI/ZoneSlot.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 1
+        },
+        {
+            "Address": "ZoneTabSlot",
+            "AssetPath": "Assets/MMORes/Prefabs/UI/ZoneTabSlot.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 1
+        },
+        {
+            "Address": "CreateRolePanel",
+            "AssetPath": "Assets/MMORes/Prefabs/UIPanel/CreateRolePanel.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 2
+        },
+        {
+            "Address": "Equipment",
+            "AssetPath": "Assets/MMORes/Prefabs/UIPanel/Equipment.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 2
+        },
+        {
+            "Address": "Inventory",
+            "AssetPath": "Assets/MMORes/Prefabs/UIPanel/Inventory.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 2
+        },
+        {
+            "Address": "LoginPanel",
+            "AssetPath": "Assets/MMORes/Prefabs/UIPanel/LoginPanel.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 2
+        },
+        {
+            "Address": "MapUIFramePanel",
+            "AssetPath": "Assets/MMORes/Prefabs/UIPanel/MapUIFramePanel.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 2
+        },
+        {
+            "Address": "RegisterPanel",
+            "AssetPath": "Assets/MMORes/Prefabs/UIPanel/RegisterPanel.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 2
+        },
+        {
+            "Address": "SelectRolePanel",
+            "AssetPath": "Assets/MMORes/Prefabs/UIPanel/SelectRolePanel.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 2
+        },
+        {
+            "Address": "ServerListPanel",
+            "AssetPath": "Assets/MMORes/Prefabs/UIPanel/ServerListPanel.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 2
+        },
+        {
+            "Address": "SettingPanel",
+            "AssetPath": "Assets/MMORes/Prefabs/UIPanel/SettingPanel.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 2
+        },
+        {
+            "Address": "SkillBarPanel",
+            "AssetPath": "Assets/MMORes/Prefabs/UIPanel/SkillBarPanel.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 2
+        },
+        {
+            "Address": "SkillsPanel",
+            "AssetPath": "Assets/MMORes/Prefabs/UIPanel/SkillsPanel.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 2
+        },
+        {
+            "Address": "UIPropertyPanel",
+            "AssetPath": "Assets/MMORes/Prefabs/UIPanel/UIPropertyPanel.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 2
+        },
+        {
+            "Address": "1PaladinMan",
+            "AssetPath": "Assets/MMORes/Prefabs/Unit/1PaladinMan.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 3
+        },
+        {
+            "Address": "2SkeletonMage",
+            "AssetPath": "Assets/MMORes/Prefabs/Unit/2SkeletonMage.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 3
+        },
+        {
+            "Address": "3SkeletonWarrior",
+            "AssetPath": "Assets/MMORes/Prefabs/Unit/3SkeletonWarrior.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 3
+        },
+        {
+            "Address": "Mage",
+            "AssetPath": "Assets/MMORes/Prefabs/Unit/Mage.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 3
+        },
+        {
+            "Address": "ZArcher",
+            "AssetPath": "Assets/MMORes/Prefabs/Unit/ZArcher.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 3
+        }
+    ],
+    "BundleList": [
+        {
+            "BundleName": "assets_scenes.bundle",
+            "UnityCRC": 0,
+            "FileHash": "ce777a0dc503c8fbfb2e48de32601186",
+            "FileCRC": "00000000",
+            "FileSize": 3045489,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": []
+        },
+        {
+            "BundleName": "assets_mmores_prefabs_ui.bundle",
+            "UnityCRC": 0,
+            "FileHash": "8603c249ad76867075a3b97e00e5a178",
+            "FileCRC": "00000000",
+            "FileSize": 39637,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": []
+        },
+        {
+            "BundleName": "assets_mmores_prefabs_uipanel.bundle",
+            "UnityCRC": 0,
+            "FileHash": "0cb98d6661ffe62310058a5ccbef969a",
+            "FileCRC": "00000000",
+            "FileSize": 879557,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": []
+        },
+        {
+            "BundleName": "assets_mmores_prefabs_unit.bundle",
+            "UnityCRC": 0,
+            "FileHash": "13e9076088063ac91ccb73148c506401",
+            "FileCRC": "00000000",
+            "FileSize": 1696916,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": []
+        }
+    ]
+}

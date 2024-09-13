@@ -7,6 +7,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BestGame", "BestGame.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fantasy.Editor", "Fantasy.Editor.csproj", "{f09e7d37-0f11-85f5-9f5a-ea60c1261f78}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniFramework.Event", "UniFramework.Event.csproj", "{7f331516-013c-0b98-7784-3454848f0ae8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniFramework.Machine", "UniFramework.Machine.csproj", "{f77aaedd-b8e9-3879-f31e-4720c55e3ff8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniFramework.Utility", "UniFramework.Utility.csproj", "{15708839-5646-d31a-6137-37ea8e58ec85}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{c6e61163-200a-3b38-320b-694068de37a5}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{03938ccd-4b40-8dfb-6b9b-21988d5cac0a}"
@@ -22,6 +28,12 @@ Global
 		{46256266-ea6d-bdf2-f727-88e38bb56fce}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{f09e7d37-0f11-85f5-9f5a-ea60c1261f78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{f09e7d37-0f11-85f5-9f5a-ea60c1261f78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7f331516-013c-0b98-7784-3454848f0ae8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7f331516-013c-0b98-7784-3454848f0ae8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{f77aaedd-b8e9-3879-f31e-4720c55e3ff8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{f77aaedd-b8e9-3879-f31e-4720c55e3ff8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15708839-5646-d31a-6137-37ea8e58ec85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15708839-5646-d31a-6137-37ea8e58ec85}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{c6e61163-200a-3b38-320b-694068de37a5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{c6e61163-200a-3b38-320b-694068de37a5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{03938ccd-4b40-8dfb-6b9b-21988d5cac0a}.Debug|Any CPU.ActiveCfg = Debug|Any CPU

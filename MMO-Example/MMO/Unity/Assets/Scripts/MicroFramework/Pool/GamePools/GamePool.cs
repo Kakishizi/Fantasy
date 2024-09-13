@@ -14,7 +14,6 @@ public class GamePool : BasePool
     static GamePool()
     {
         _instance = new GamePool();
-        _instance.loadPath += "Game/";
         _instance.itemPool = new GameObject("GamePool");
     }
 }

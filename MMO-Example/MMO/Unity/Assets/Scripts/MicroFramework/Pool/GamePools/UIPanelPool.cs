@@ -14,7 +14,6 @@ public class UIPanelPool : BasePool
     static UIPanelPool()
     {
         _instance = new UIPanelPool();
-        _instance.loadPath += "UIPanel/";
         _instance.itemPool = new GameObject("UIPanel");
     }
 }

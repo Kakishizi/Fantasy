@@ -31,7 +31,7 @@ public class CreateRolePanel : BasePanel
         backToPanel = StringManager.SelectRolePanel;
 
         classViewer = gameObject.AddComponent<ClassViewer>();
-        classes = GameManager.Ins.playerClasses.ToArray();
+        classes = GameApp.Ins.playerClasses.ToArray();
         Log.Info("classes: " + classes.Length + " | " + classes[0].ClassName);
     }
 
@@ -59,7 +59,7 @@ public class CreateRolePanel : BasePanel
     {
         base.EnterPanel();
         // 默认预览职业与预览相机位置
-        GameFacade.Ins.CamLocation(GameManager.Ins.location.create_camLoaction);
+        GameFacade.Ins.CamLocation(GameApp.Ins.location.create_camLoaction);
 
         CreatePreview();
     }
@@ -114,7 +114,7 @@ public class CreateRolePanel : BasePanel
 
     void PreviewClass(string className)
     {
-        var go = classViewer.ViewClass(className, GameManager.Ins.location.create_spawnLoaction);
+        var go = classViewer.ViewClass(className, GameApp.Ins.location.create_spawnLoaction);
         info.text = classViewer.current.gameObject.GetComponent<Player>().toolTip;
 
         // ==> 激活职业预览角色控制器

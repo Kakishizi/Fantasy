@@ -48,18 +48,24 @@
     <Compile Include="Assets\Scripts\MMOGame\UI\UI\UIRoleNameSlot.cs" />
     <Compile Include="Assets\Scripts\MicroFramework\UI\Utils\UIUtils.cs" />
     <Compile Include="Assets\Scripts\Hotfix\Generate\LubanCode\Tables.cs" />
+    <Compile Include="Assets\Scripts\GameScript\Runtime\Behaviour\ApplicationQuit.cs" />
     <Compile Include="Assets\Scripts\MicroFramework\Math\FixedPoint.cs" />
     <Compile Include="Assets\Scripts\MMOGame\Game\Player\Player.cs" />
     <Compile Include="Assets\Scripts\MicroFramework\Pool\PoolType.cs" />
     <Compile Include="Assets\Scripts\MMOGame\Game\PlayerController\CharacterInput\PlayerInput.cs" />
     <Compile Include="Assets\Scripts\MMOGame\UI\UIPanel\MapUIFramePanel.cs" />
+    <Compile Include="Assets\Scripts\ResourceManager.cs" />
     <Compile Include="Assets\Scripts\Network\Sender\MessageHandler.cs" />
     <Compile Include="Assets\Scripts\MicroFramework\_Extensions.cs" />
+    <Compile Include="Assets\Scripts\GameScript\Runtime\Behaviour\BackgroundScroller.cs" />
+    <Compile Include="Assets\Scripts\GameScript\Runtime\PatchLogic\FsmNode\FsmUpdaterDone.cs" />
     <Compile Include="Assets\Scripts\MMOGame\Game\PlayerController\CharacterMovement.cs" />
+    <Compile Include="Assets\Scripts\GameScript\Runtime\PatchLogic\FsmNode\FsmDownloadPackageOver.cs" />
     <Compile Include="Assets\Scripts\MicroFramework\UI\Utils\UIDragAndDropable.cs" />
     <Compile Include="Assets\Scripts\MMOGame\Game\Unit\MonsterUnits.cs" />
     <Compile Include="Assets\Scripts\MMOGame\Game\PlayerController\Base\Swimming.cs" />
     <Compile Include="Assets\Scripts\MicroFramework\Pool\Pool.cs" />
+    <Compile Include="Assets\Scripts\GameScript\Runtime\EventDefine\UserEventDefine.cs" />
     <Compile Include="Assets\Scripts\MMOGame\Game\PlayerController\Base\Movement.cs" />
     <Compile Include="Assets\Scripts\MMOGame\UI\UIPanel\SelectRolePanel.cs" />
     <Compile Include="Assets\Scripts\MicroFramework\Pool\GamePools\UIPool.cs" />
@@ -70,6 +76,7 @@
     <Compile Include="Assets\Scripts\Network\Helper\IdGenerate.cs" />
     <Compile Include="Assets\Scripts\MMOGame\ModelViewer\UnitViewer.cs" />
     <Compile Include="Assets\Scripts\MMOGame\Base\BaseUnits.cs" />
+    <Compile Include="Assets\Scripts\GameScript\Runtime\Boot.cs" />
     <Compile Include="Assets\Scripts\MMOGame\Game\PlayerController\Base\CameraMMO.cs" />
     <Compile Include="Assets\Scripts\Hotfix\Generate\LubanCode\test\TestExcelBean2.cs" />
     <Compile Include="Assets\Scripts\MicroFramework\Singleton\SingletonMono.cs" />
@@ -82,12 +89,19 @@
     <Compile Include="Assets\Scripts\MicroFramework\Models\GameFacade.cs" />
     <Compile Include="Assets\Scripts\MicroFramework\UI\Utils\UITab.cs" />
     <Compile Include="Assets\Scripts\MicroFramework\Optimizations\ScriptableNonAlloc.cs" />
+    <Compile Include="Assets\Scripts\GameScript\Editor\Encryption.cs" />
     <Compile Include="Assets\Scripts\MMOGame\Game\PlayerController\CharacterInput\Inputs.cs" />
+    <Compile Include="Assets\Scripts\GameScript\Runtime\PatchLogic\FsmNode\FsmUpdatePackageVersion.cs" />
     <Compile Include="Assets\Scripts\MicroFramework\UI\PopUp\TextMeshFadeAlpha.cs" />
+    <Compile Include="Assets\Scripts\GameScript\Runtime\EventDefine\PatchEventDefine.cs" />
+    <Compile Include="Assets\Scripts\GameScript\Runtime\PatchLogic\FsmNode\FsmInitializePackage.cs" />
     <Compile Include="Assets\Scripts\Network\Response\RoleResponse.cs" />
+    <Compile Include="Assets\Scripts\GameScript\Runtime\PatchLogic\PatchOperation.cs" />
+    <Compile Include="Assets\Scripts\GameScript\Runtime\PatchLogic\FsmNode\FsmCreatePackageDownloader.cs" />
     <Compile Include="Assets\Scripts\Hotfix\Generate\LubanCode\vector2.cs" />
     <Compile Include="Assets\Scripts\MicroFramework\UI\UIFacade.cs" />
     <Compile Include="Assets\Scripts\MMOGame\UI\UI\ZoneTabSlot.cs" />
+    <Compile Include="Assets\Scripts\GameApp.cs" />
     <Compile Include="Assets\Scripts\MMOGame\Scene\AccountScene.cs" />
     <Compile Include="Assets\Scripts\MicroFramework\Math\FixedQuaterntion.cs" />
     <Compile Include="Assets\Scripts\Hotfix\Generate\LubanCode\vector4.cs" />
@@ -97,16 +111,20 @@
     <Compile Include="Assets\Scripts\MMOGame\UI\UIPanel\ServerListPanel.cs" />
     <Compile Include="Assets\Scripts\Hotfix\Generate\LubanCode\test\AccessFlag.cs" />
     <Compile Include="Assets\Scripts\Hotfix\Generate\NetworkProtocol\OuterMessage.cs" />
+    <Compile Include="Assets\Scripts\GameScript\Runtime\PatchLogic\PatchWindow.cs" />
     <Compile Include="Assets\Scripts\MMOGame\Game\Unit\PlayerUnits.cs" />
     <Compile Include="Assets\Scripts\MMOGame\Game\PlayerController\NetCharaMovement.cs" />
     <Compile Include="Assets\Scripts\MMOGame\Base\Location.cs" />
     <Compile Include="Assets\Scripts\Network\Helper\TelephoneNumberVerifyHelper.cs" />
+    <Compile Include="Assets\Scripts\GameScript\Runtime\PatchLogic\FsmNode\FsmDownloadPackageFiles.cs" />
     <Compile Include="Assets\Scripts\MMOGame\Scene\RoleScene.cs" />
     <Compile Include="Assets\Scripts\Network\Sender\Reciver.cs" />
     <Compile Include="Assets\Scripts\MMOGame\UI\UIPanel\RegisterPanel.cs" />
     <Compile Include="Assets\Scripts\MicroFramework\Models\BaseViewer.cs" />
+    <Compile Include="Assets\Scripts\GameScript\Runtime\GameLogic\GameManager.cs" />
     <Compile Include="Assets\Scripts\Hotfix\Generate\NetworkProtocol\RouteType.cs" />
-    <Compile Include="Assets\Scripts\GameManager.cs" />
+    <Compile Include="Assets\Scripts\GameScript\Runtime\WindowLogic\UIAboutWindow.cs" />
+    <Compile Include="Assets\Scripts\GameScript\Runtime\PatchLogic\FsmNode\FsmUpdatePackageManifest.cs" />
     <Compile Include="Assets\Scripts\MMOGame\Base\StringManager.cs" />
     <Compile Include="Assets\Scripts\MicroFramework\Singleton\Singleton.cs" />
     <Compile Include="Assets\Scripts\MicroFramework\Pool\GamePools\GamePool.cs" />
@@ -115,8 +133,10 @@
     <Compile Include="Assets\Scripts\MMOGame\UI\UIPanel\SettingPanel.cs" />
     <Compile Include="Assets\Scripts\Network\Sender\ReciveType.cs" />
     <Compile Include="Assets\Scripts\MMOGame\Game\PlayerController\Base\Jump.cs" />
+    <Compile Include="Assets\Scripts\GameScript\StreamingAssetsHelper\BuildinFileManifest.cs" />
     <Compile Include="Assets\Scripts\MicroFramework\_Utils.cs" />
     <Compile Include="Assets\Scripts\Network\Response\Response.cs" />
+    <Compile Include="Assets\Scripts\GameScript\StreamingAssetsHelper\StreamingAssetsDefine.cs" />
     <Compile Include="Assets\Scripts\MMOGame\UI\UI\ZoneSlot.cs" />
     <Compile Include="Assets\Scripts\Hotfix\Generate\NetworkProtocol\OuterOpcode.cs" />
     <Compile Include="Assets\Scripts\Hotfix\Generate\LubanCode\test\TestExcelBean1.cs" />
@@ -138,8 +158,10 @@
     <Compile Include="Assets\Scripts\MMOGame\Game\PlayerController\Base\Platform.cs" />
     <Compile Include="Assets\Scripts\MMOGame\Game\PlayerController\Tools\SpawnItem.cs" />
     <Compile Include="Assets\Scripts\MMOGame\Game\PlayerController\Tools\Oscillator.cs" />
+    <Compile Include="Assets\Scripts\GameScript\StreamingAssetsHelper\StreamingAssetsHelper.cs" />
     <Compile Include="Assets\Scripts\MicroFramework\Pool\GamePools\UnitPool.cs" />
     <Compile Include="Assets\Scripts\Hotfix\Generate\LubanCode\item\EQuality.cs" />
+    <Compile Include="Assets\Scripts\GameScript\Runtime\EventDefine\SceneEventDefine.cs" />
     <Compile Include="Assets\Scripts\MicroFramework\Math\FixedHelper.cs" />
     <Compile Include="Assets\Scripts\MMOGame\Game\PlayerController\SwimmingController.cs" />
     <Compile Include="Assets\Scripts\Hotfix\Generate\LubanCode\vector3.cs" />
@@ -152,6 +174,8 @@
     <Compile Include="Assets\Scripts\MicroFramework\Math\FixedVector2.cs" />
     <Compile Include="Assets\Scripts\Network\Handler\M2C_UnitHelperHandler.cs" />
     <Compile Include="Assets\Scripts\MicroFramework\UI\Utils\UIImageMouseoverColor.cs" />
+    <Compile Include="Assets\Scripts\GameScript\Runtime\WindowLogic\UILoadingWindow.cs" />
+    <Compile Include="Assets\Scripts\GameScript\Runtime\PatchLogic\FsmNode\FsmClearPackageCache.cs" />
     <Compile Include="Assets\Scripts\MMOGame\UI\UI\UIRoleClassSlot.cs" />
     <Compile Include="Assets\Scripts\Network\Helper\WordFilterHelper.cs" />
     <None Include="Assets\Scripts\BestGame.asmdef" />
@@ -845,6 +869,12 @@
     <Reference Include="Luban.Runtime">
       <HintPath>C:\Users\Yongh\Game\Fantasy\MMO-Example\MMO\Unity\Library\ScriptAssemblies\Luban.Runtime.dll</HintPath>
     </Reference>
+    <Reference Include="YooAsset">
+      <HintPath>C:\Users\Yongh\Game\Fantasy\MMO-Example\MMO\Unity\Library\ScriptAssemblies\YooAsset.dll</HintPath>
+    </Reference>
+    <Reference Include="YooAsset.Editor">
+      <HintPath>C:\Users\Yongh\Game\Fantasy\MMO-Example\MMO\Unity\Library\ScriptAssemblies\YooAsset.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEditor.UI">
       <HintPath>C:\Users\Yongh\Game\Fantasy\MMO-Example\MMO\Unity\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
     </Reference>
@@ -860,6 +890,18 @@
     <ProjectReference Include="Fantasy.Unity.csproj">
       <Project>{d85fa58b-aca9-8bf0-e827-074457206988}</Project>
       <Name>Fantasy.Unity</Name>
+    </ProjectReference>
+    <ProjectReference Include="UniFramework.Event.csproj">
+      <Project>{7f331516-013c-0b98-7784-3454848f0ae8}</Project>
+      <Name>UniFramework.Event</Name>
+    </ProjectReference>
+    <ProjectReference Include="UniFramework.Machine.csproj">
+      <Project>{f77aaedd-b8e9-3879-f31e-4720c55e3ff8}</Project>
+      <Name>UniFramework.Machine</Name>
+    </ProjectReference>
+    <ProjectReference Include="UniFramework.Utility.csproj">
+      <Project>{15708839-5646-d31a-6137-37ea8e58ec85}</Project>
+      <Name>UniFramework.Utility</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

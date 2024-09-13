@@ -77,7 +77,7 @@ public class PlayerMoveSender : MonoBehaviour
 
     private void CollectData(bool isStop = false){
         var movement = player.movement;
-        moveInfo.RoleId = GameManager.Ins.RoleId;
+        moveInfo.RoleId = GameApp.Ins.RoleId;
         var p = transform.position.ToFixedVector3();
         moveInfo.Position = p.ToVector3().ToPosition();
         moveInfo.Rotation = transform.rotation.ToRotation();

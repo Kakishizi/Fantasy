@@ -3,8 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System;
 using MicroCharacterController;
+using YooAsset;
 
-public class GameManager : SingletonMono<GameManager>
+public class GameApp : SingletonMono<GameApp>
 {
     public Location location;
 
@@ -14,6 +15,7 @@ public class GameManager : SingletonMono<GameManager>
     [HideInInspector] public List<Player> playerClasses = new List<Player>(); 
     [HideInInspector] public List<GameEntity> unitClasses = new List<GameEntity>(); 
 
+    public EPlayMode PlayMode = EPlayMode.EditorSimulateMode;
 
     // unitManager
     private static PlayerUnits _playerUnit;
@@ -34,6 +36,7 @@ public class GameManager : SingletonMono<GameManager>
         _playerUnit = (PlayerUnits) gameObject.AddComponent<PlayerUnits>();
         _MonsterUnit = (MonsterUnits) gameObject.AddComponent<MonsterUnits>();
         _NpcUnit = (NpcUnits) gameObject.AddComponent<NpcUnits>();
+        
     }
 
     // 获取unit的角色预制体对象

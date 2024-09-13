@@ -754,14 +754,8 @@
     <Reference Include="UnityEditor.TestRunner">
       <HintPath>C:\Users\Yongh\Game\Fantasy\MMO-Example\MMO\Unity\Library\ScriptAssemblies\UnityEditor.TestRunner.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Timeline">
-      <HintPath>C:\Users\Yongh\Game\Fantasy\MMO-Example\MMO\Unity\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
-    </Reference>
     <Reference Include="HybridCLR.Runtime">
       <HintPath>C:\Users\Yongh\Game\Fantasy\MMO-Example\MMO\Unity\Library\ScriptAssemblies\HybridCLR.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
-      <HintPath>C:\Users\Yongh\Game\Fantasy\MMO-Example\MMO\Unity\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PlasticSCM.Editor">
       <HintPath>C:\Users\Yongh\Game\Fantasy\MMO-Example\MMO\Unity\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
@@ -772,9 +766,6 @@
     <Reference Include="Luban.Runtime">
       <HintPath>C:\Users\Yongh\Game\Fantasy\MMO-Example\MMO\Unity\Library\ScriptAssemblies\Luban.Runtime.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.VisualScripting.State.Editor">
-      <HintPath>C:\Users\Yongh\Game\Fantasy\MMO-Example\MMO\Unity\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:\Users\Yongh\Game\Fantasy\MMO-Example\MMO\Unity\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
     </Reference>
@@ -784,20 +775,20 @@
     <Reference Include="HybridCLR.Editor">
       <HintPath>C:\Users\Yongh\Game\Fantasy\MMO-Example\MMO\Unity\Library\ScriptAssemblies\HybridCLR.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.ScriptableBuildPipeline">
+      <HintPath>C:\Users\Yongh\Game\Fantasy\MMO-Example\MMO\Unity\Library\ScriptAssemblies\Unity.ScriptableBuildPipeline.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.VisualStudio.Editor">
       <HintPath>C:\Users\Yongh\Game\Fantasy\MMO-Example\MMO\Unity\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:\Users\Yongh\Game\Fantasy\MMO-Example\MMO\Unity\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
+    <Reference Include="UnityEditor.UI">
+      <HintPath>C:\Users\Yongh\Game\Fantasy\MMO-Example\MMO\Unity\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Core">
       <HintPath>C:\Users\Yongh\Game\Fantasy\MMO-Example\MMO\Unity\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:\Users\Yongh\Game\Fantasy\MMO-Example\MMO\Unity\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.UI">
-      <HintPath>C:\Users\Yongh\Game\Fantasy\MMO-Example\MMO\Unity\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>C:\Users\Yongh\Game\Fantasy\MMO-Example\MMO\Unity\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Core.Editor">
       <HintPath>C:\Users\Yongh\Game\Fantasy\MMO-Example\MMO\Unity\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
@@ -805,39 +796,44 @@
     <Reference Include="Unity.Rider.Editor">
       <HintPath>C:\Users\Yongh\Game\Fantasy\MMO-Example\MMO\Unity\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.VisualScripting.State">
-      <HintPath>C:\Users\Yongh\Game\Fantasy\MMO-Example\MMO\Unity\Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VSCode.Editor">
-      <HintPath>C:\Users\Yongh\Game\Fantasy\MMO-Example\MMO\Unity\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.ScriptableBuildPipeline">
-      <HintPath>C:\Users\Yongh\Game\Fantasy\MMO-Example\MMO\Unity\Library\ScriptAssemblies\Unity.ScriptableBuildPipeline.dll</HintPath>
-    </Reference>
-    <Reference Include="YooAsset.Editor">
-      <HintPath>C:\Users\Yongh\Game\Fantasy\MMO-Example\MMO\Unity\Library\ScriptAssemblies\YooAsset.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.UI">
-      <HintPath>C:\Users\Yongh\Game\Fantasy\MMO-Example\MMO\Unity\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.ScriptableBuildPipeline.Editor">
-      <HintPath>C:\Users\Yongh\Game\Fantasy\MMO-Example\MMO\Unity\Library\ScriptAssemblies\Unity.ScriptableBuildPipeline.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.VisualScripting.Flow">
       <HintPath>C:\Users\Yongh\Game\Fantasy\MMO-Example\MMO\Unity\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Flow.Editor">
       <HintPath>C:\Users\Yongh\Game\Fantasy\MMO-Example\MMO\Unity\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.Timeline">
+      <HintPath>C:\Users\Yongh\Game\Fantasy\MMO-Example\MMO\Unity\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
+      <HintPath>C:\Users\Yongh\Game\Fantasy\MMO-Example\MMO\Unity\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.State.Editor">
+      <HintPath>C:\Users\Yongh\Game\Fantasy\MMO-Example\MMO\Unity\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>C:\Users\Yongh\Game\Fantasy\MMO-Example\MMO\Unity\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro.Editor">
+      <HintPath>C:\Users\Yongh\Game\Fantasy\MMO-Example\MMO\Unity\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="YooAsset.Editor">
+      <HintPath>C:\Users\Yongh\Game\Fantasy\MMO-Example\MMO\Unity\Library\ScriptAssemblies\YooAsset.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.State">
+      <HintPath>C:\Users\Yongh\Game\Fantasy\MMO-Example\MMO\Unity\Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VSCode.Editor">
+      <HintPath>C:\Users\Yongh\Game\Fantasy\MMO-Example\MMO\Unity\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ScriptableBuildPipeline.Editor">
+      <HintPath>C:\Users\Yongh\Game\Fantasy\MMO-Example\MMO\Unity\Library\ScriptAssemblies\Unity.ScriptableBuildPipeline.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Luban.Editor">
       <HintPath>C:\Users\Yongh\Game\Fantasy\MMO-Example\MMO\Unity\Library\ScriptAssemblies\Luban.Editor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="BestGame.csproj">
-      <Project>{46256266-ea6d-bdf2-f727-88e38bb56fce}</Project>
-      <Name>BestGame</Name>
-    </ProjectReference>
     <ProjectReference Include="Fantasy.Editor.csproj">
       <Project>{f09e7d37-0f11-85f5-9f5a-ea60c1261f78}</Project>
       <Name>Fantasy.Editor</Name>
@@ -845,6 +841,22 @@
     <ProjectReference Include="Fantasy.Unity.csproj">
       <Project>{d85fa58b-aca9-8bf0-e827-074457206988}</Project>
       <Name>Fantasy.Unity</Name>
+    </ProjectReference>
+    <ProjectReference Include="UniFramework.Machine.csproj">
+      <Project>{f77aaedd-b8e9-3879-f31e-4720c55e3ff8}</Project>
+      <Name>UniFramework.Machine</Name>
+    </ProjectReference>
+    <ProjectReference Include="BestGame.csproj">
+      <Project>{46256266-ea6d-bdf2-f727-88e38bb56fce}</Project>
+      <Name>BestGame</Name>
+    </ProjectReference>
+    <ProjectReference Include="UniFramework.Utility.csproj">
+      <Project>{15708839-5646-d31a-6137-37ea8e58ec85}</Project>
+      <Name>UniFramework.Utility</Name>
+    </ProjectReference>
+    <ProjectReference Include="UniFramework.Event.csproj">
+      <Project>{7f331516-013c-0b98-7784-3454848f0ae8}</Project>
+      <Name>UniFramework.Event</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

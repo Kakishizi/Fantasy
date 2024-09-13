@@ -762,11 +762,11 @@
     <Reference Include="UnityEngine.UI">
       <HintPath>C:\Users\Yongh\Game\Fantasy\MMO-Example\MMO\Unity\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.TestRunner">
-      <HintPath>C:\Users\Yongh\Game\Fantasy\MMO-Example\MMO\Unity\Library\ScriptAssemblies\UnityEngine.TestRunner.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEditor.TestRunner">
       <HintPath>C:\Users\Yongh\Game\Fantasy\MMO-Example\MMO\Unity\Library\ScriptAssemblies\UnityEditor.TestRunner.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TestRunner">
+      <HintPath>C:\Users\Yongh\Game\Fantasy\MMO-Example\MMO\Unity\Library\ScriptAssemblies\UnityEngine.TestRunner.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

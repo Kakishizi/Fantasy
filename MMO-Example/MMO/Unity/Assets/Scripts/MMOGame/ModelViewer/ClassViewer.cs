@@ -11,7 +11,7 @@ public class ClassViewer : BaseViewer
     public void Awake()
     {
         rootName = "ClassViewRoot";
-        classes = GameManager.Ins.playerClasses.ToArray();
+        classes = GameApp.Ins.playerClasses.ToArray();
     }
 
     public GameObject ViewClass(string className,Transform point)

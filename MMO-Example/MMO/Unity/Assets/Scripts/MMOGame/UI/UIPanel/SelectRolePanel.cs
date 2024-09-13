@@ -51,7 +51,7 @@ public class SelectRolePanel : BasePanel
     public override void EnterPanel()
     {
         base.EnterPanel();
-        GameFacade.Ins.CamLocation(GameManager.Ins.location.select_camLocation);
+        GameFacade.Ins.CamLocation(GameApp.Ins.location.select_camLocation);
 
         // >>process role 网络层请求加载账号下创建的角色
         CallRoles().Coroutine(); 
@@ -74,7 +74,7 @@ public class SelectRolePanel : BasePanel
         UIFacade.Ins.EnterScene(new MapScene());
 
         // 创建本地玩家unit
-        GameManager.PlayerUnits.AddLocalUnit2Scene(response.RoleInfo);
+        GameApp.PlayerUnits.AddLocalUnit2Scene(response.RoleInfo);
     }
         
     public async FTask CallRoles()
@@ -113,12 +113,12 @@ public class SelectRolePanel : BasePanel
     void PreviewRole(string roleId)
     {
         selectRoleId = long.Parse(roleId);
-        GameManager.Ins.RoleId = selectRoleId;
+        GameApp.Ins.RoleId = selectRoleId;
         
         var roleInfo = roles.ToList().Find(p => p.RoleId == selectRoleId);
         
         GameObject go = roleViewer.ViewUnit(roleInfo.ClassName,
-            roleId,GameManager.Ins.location.select_spawnLoaction);
+            roleId,GameApp.Ins.location.select_spawnLoaction);
 
         // ==> 激活角色控制器
         go.GetComponent<GameEntity>().EnableController();

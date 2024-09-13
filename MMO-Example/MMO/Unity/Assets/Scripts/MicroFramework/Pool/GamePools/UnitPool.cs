@@ -14,7 +14,6 @@ public class UnitPool : BasePool
     static UnitPool()
     {
         _instance = new UnitPool();
-        _instance.loadPath += "Unit/";
         _instance.itemPool = GameObject.Find("UnitPool");
     }
 }

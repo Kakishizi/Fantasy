@@ -14,7 +14,6 @@ public class UIPool : BasePool
     static UIPool()
     {
         _instance = new UIPool();
-        _instance.loadPath += "UI/";
         _instance.itemPool = new GameObject("UIPool");
     }
 }

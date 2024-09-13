@@ -11,7 +11,7 @@ public class UnitViewer : BaseViewer
     public void Awake()
     {
         rootName = "UnitViewRoot";
-        classes = GameManager.Ins.unitClasses.ToArray();
+        classes = GameApp.Ins.unitClasses.ToArray();
     }
 
     // 角色要用roleId缓存
